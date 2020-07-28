@@ -11864,6 +11864,7 @@ a.anchor-link {
 <li>Returned Value</li>
 <li>Global Variable and Local Variable</li>
 <li>Python Modules</li>
+<li>More on functions</li>
 </ul>
 
 </div>
@@ -11895,6 +11896,7 @@ a.anchor-link {
 <li><span style="color:#bbb">Returned Value</span></li>
 <li><span style="color:#bbb">Global Variable and Local Variable</span></li>
 <li><span style="color:#bbb">Python Modules</span></li>
+<li><span style="color:#bbb">More on functions</span></li>
 </ul>
 
 </div>
@@ -11970,10 +11972,18 @@ a.anchor-link {
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="When-should-we-define-a-function?">When should we define a function?<a class="anchor-link" href="#When-should-we-define-a-function?">&#182;</a></h3><p>If a software program has a <strong>routine task</strong> that will be <strong>repeatedly executed</strong>, we may develop a function for this task so that every time we can do the task by simply calling the function.</p>
+<h2 id="When-should-we-define-a-function?">When should we define a function?<a class="anchor-link" href="#When-should-we-define-a-function?">&#182;</a></h2><p>If a software program has a <strong>routine task</strong> that will be <strong>repeatedly executed</strong>, we may develop a function for this task so that every time we can do the task by simply calling the function.</p>
 <p>If a software program is very <strong>complex</strong>, we may decompose it into <strong>multiple smaller tasks</strong>, 
 and then develop a function for each small task. </p>
-<h3 id="Defining-a-Function">Defining a Function<a class="anchor-link" href="#Defining-a-Function">&#182;</a></h3><ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Defining-a-Function">Defining a Function<a class="anchor-link" href="#Defining-a-Function">&#182;</a></h2><ul>
 <li>Begin with the <code>def</code> keyword; </li>
 <li>Followed by the function <strong>name</strong>, which is the identifier of the function and has the same rule as variable names; </li>
 <li>Then place the list of <strong>parameters</strong> between <strong>parentheses</strong> and followed by a colon. Sometimes function has no parameter at all; </li>
@@ -11995,15 +12005,7 @@ and then develop a function for each small task. </p>
 
 </div>
 </div>
-</div><div class="fragment">
-<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
-</div>
-<div class="inner_cell">
-<div class="text_cell_render border-box-sizing rendered_html">
-
-</div>
-</div>
-</div></div></section><section>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -12051,6 +12053,7 @@ and then develop a function for each small task. </p>
 <li><span style="color:#bbb">Returned Value</span></li>
 <li><span style="color:#bbb">Global Variable and Local Variable</span></li>
 <li><span style="color:#bbb">Python Modules</span></li>
+<li><span style="color:#bbb">More on functions</span></li>
 </ul>
 
 </div>
@@ -12108,10 +12111,10 @@ and then develop a function for each small task. </p>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
 <h3 id="Variable-value-assignment">Variable value assignment<a class="anchor-link" href="#Variable-value-assignment">&#182;</a></h3><p>The statement <code>a, b = 0, 1</code> is the same as two separate statements <code>a = 0</code> followed by <code>b = 1</code>. In fact, this multiple assignment statement simply assigns the tuple <code>(0, 1)</code> to the tuple <code>(a, b)</code>. For the case of <code>a, b = b, a + b</code>, it has the same effect as the following statements:</p>
-<div class="highlight"><pre><span></span><span class="n">Temp1</span> <span class="o">=</span> <span class="n">b</span>
-<span class="n">Temp2</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
-<span class="n">a</span> <span class="o">=</span> <span class="n">Temp1</span>
-<span class="n">b</span> <span class="o">=</span> <span class="n">Temp2</span>
+<div class="highlight"><pre><span></span><span class="no">Temp1</span> <span class="o">=</span> <span class="n">b</span>
+<span class="no">Temp2</span> <span class="o">=</span> <span class="n">a</span> <span class="o">+</span> <span class="n">b</span>
+<span class="n">a</span> <span class="o">=</span> <span class="no">Temp1</span>
+<span class="n">b</span> <span class="o">=</span> <span class="no">Temp2</span>
 </pre></div>
 
 </div>
@@ -12186,7 +12189,7 @@ and then develop a function for each small task. </p>
 </div>
 </div>
 
-</div>
+</div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -12197,11 +12200,12 @@ and then develop a function for each small task. </p>
 <li>Returned Value</li>
 <li><span style="color:#bbb">Global Variable and Local Variable</span></li>
 <li><span style="color:#bbb">Python Modules</span></li>
+<li><span style="color:#bbb">More on functions</span></li>
 </ul>
 
 </div>
 </div>
-</div></div></section><section>
+</div></section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -12340,19 +12344,6 @@ and then develop a function for each small task. </p>
 </div>
 </div>
 </div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Please write your codes here</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
-</div></div><div class="fragment">
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
 <div class="inner_cell">
@@ -12363,19 +12354,6 @@ and then develop a function for each small task. </p>
 
 </div>
 </div>
-</div></div><div class="fragment">
-<div class="cell border-box-sizing code_cell rendered">
-<div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
-<div class="inner_cell">
-    <div class="input_area">
-<div class=" highlight hl-ipython3"><pre><span></span><span class="c1"># Please write your codes here</span>
-</pre></div>
-
-</div>
-</div>
-</div>
-
 </div></div></section></section><section><section>
 <div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
 </div>
@@ -12387,6 +12365,7 @@ and then develop a function for each small task. </p>
 <li><span style="color:#bbb">Returned Value</span></li>
 <li>Global Variable and Local Variable</li>
 <li><span style="color:#bbb">Python Modules</span></li>
+<li><span style="color:#bbb">More on functions</span></li>
 </ul>
 
 </div>
@@ -12434,7 +12413,8 @@ and then develop a function for each small task. </p>
 </div>
 <div class="inner_cell">
 <div class="text_cell_render border-box-sizing rendered_html">
-<h3 id="How-to-change-the-global-variables?">How to change the global variables?<a class="anchor-link" href="#How-to-change-the-global-variables?">&#182;</a></h3><p>If a function wants to change the value of a global variable, it needs to make a declaration before accessing the global variable.</p>
+<h3 id="How-to-change-the-global-variables?">How to change the global variables?<a class="anchor-link" href="#How-to-change-the-global-variables?">&#182;</a></h3><p>If a function wants to change the value of a global variable,
+it needs to make a declaration before accessing the global variable.</p>
 
 </div>
 </div>
@@ -12483,7 +12463,7 @@ and then develop a function for each small task. </p>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[63]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">print_list_onebyone</span><span class="p">(</span><span class="n">list1</span><span class="p">):</span>
@@ -12507,13 +12487,34 @@ and then develop a function for each small task. </p>
 </div></div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[64]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">print_list_onebyone</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">,</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">])</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_stream output_stdout output_text">
+<pre>1
+2
+3
+4
+</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -12529,13 +12530,36 @@ and then develop a function for each small task. </p>
 </div><div class="fragment">
 <div class="cell border-box-sizing code_cell rendered">
 <div class="input">
-<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="prompt input_prompt">In&nbsp;[65]:</div>
 <div class="inner_cell">
     <div class="input_area">
 <div class=" highlight hl-ipython3"><pre><span></span><span class="n">print_list_onebyone</span><span class="p">([</span><span class="mi">1</span><span class="p">,</span><span class="mi">2</span><span class="p">]</span> <span class="p">,</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span><span class="mi">4</span><span class="p">])</span>
 </pre></div>
 
 </div>
+</div>
+</div>
+
+<div class="output_wrapper">
+<div class="output">
+
+
+<div class="output_area">
+
+<div class="prompt"></div>
+
+
+<div class="output_subarea output_text output_error">
+<pre>
+<span class="ansi-red-fg">---------------------------------------------------------------------------</span>
+<span class="ansi-red-fg">TypeError</span>                                 Traceback (most recent call last)
+<span class="ansi-green-fg">&lt;ipython-input-65-fb3266eeb63b&gt;</span> in <span class="ansi-cyan-fg">&lt;module&gt;</span>
+<span class="ansi-green-fg">----&gt; 1</span><span class="ansi-red-fg"> </span>print_list_onebyone<span class="ansi-blue-fg">(</span><span class="ansi-blue-fg">[</span><span class="ansi-cyan-fg">1</span><span class="ansi-blue-fg">,</span><span class="ansi-cyan-fg">2</span><span class="ansi-blue-fg">]</span> <span class="ansi-blue-fg">,</span> <span class="ansi-blue-fg">[</span><span class="ansi-cyan-fg">3</span><span class="ansi-blue-fg">,</span><span class="ansi-cyan-fg">4</span><span class="ansi-blue-fg">]</span><span class="ansi-blue-fg">)</span>
+
+<span class="ansi-red-fg">TypeError</span>: print_list_onebyone() takes 1 positional argument but 2 were given</pre>
+</div>
+</div>
+
 </div>
 </div>
 
@@ -12690,6 +12714,7 @@ intersection of the two input lists.</p>
 <li><span style="color:#bbb">Returned Value</span></li>
 <li><span style="color:#bbb">Global Variable and Local Variable</span></li>
 <li>Python Modules</li>
+<li><span style="color:#bbb">More on functions</span></li>
 </ul>
 
 </div>
@@ -12761,7 +12786,366 @@ intersection of the two input lists.</p>
 
 </div>
 </div>
-</div></div></section></section>
+</div></div></section></section><section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h1 id="Lab-3:-Functions">Lab 3: Functions<a class="anchor-link" href="#Lab-3:-Functions">&#182;</a></h1><ul>
+<li><span style="color:#bbb">Functions</span></li>
+<li><span style="color:#bbb">Docstring</span></li>
+<li><span style="color:#bbb">Returned Value</span></li>
+<li><span style="color:#bbb">Global Variable and Local Variable</span></li>
+<li><span style="color:#bbb">Python Modules</span></li>
+<li>More on functions</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="A-SicBo-(&#39600;&#23542;)-Program-for-Fun">A SicBo (&#39600;&#23542;) Program for Fun<a class="anchor-link" href="#A-SicBo-(&#39600;&#23542;)-Program-for-Fun">&#182;</a></h2><ul>
+<li>A Simulation Program</li>
+<li>More Practice on Control Flow</li>
+<li>More Practice on writing functions</li>
+<li>Design, implementation, debugging and testing</li>
+</ul>
+<table>
+<thead><tr>
+<th>Disclaimer</th>
+<th>Game board</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Disclaimer: This exercise has absolutely no intention to promote gambling but instead demonstrates the betting strategy under this investigation is not effective against this dice rolling game. If you write the simulation correctly, your program will show that you will lose all your money most of the time!</strong><img src="https://3.bp.blogspot.com/-xwqLKLbK97w/XIepP8hnD6I/AAAAAAAAADQ/Ola3_zYCbWIwfgyNsXw1OCzBpGSaXCFwQCLcBGAs/s1600/Games%2BJudi%2BCasino%2BOnline%2BYang%2BPopuler%2BDi%2BAsia%2B3.jpg"></td>
+<td><img src="https://4.bp.blogspot.com/-vrMyLg6btuw/VXGyliz0UGI/AAAAAAAABy0/28exgQcjycU/s1600/Big-Small_o.jpg"></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Sic-Bo-&#8211;-a-Traditional-Chinese-Dice-Rolling-Game">Sic Bo &#8211; a Traditional Chinese Dice Rolling Game<a class="anchor-link" href="#Sic-Bo-&#8211;-a-Traditional-Chinese-Dice-Rolling-Game">&#182;</a></h2><p>The Game Flow under this investigation</p>
+<ul>
+<li>The user will be given a fixed amount of money to start a game. </li>
+<li>A minimum bet is set and the program will simulate the throw of THREE dices, and decide whether the user has won or lost the bet. </li>
+<li>The single game simulation will stop when the user losses all the money or when the maximum number of rounds is reached. </li>
+<li>A single game summary will be printed out.</li>
+<li>In order to study the betting strategy, a maximum number of games will be simulated and the program will terminate with the winning and betting statistics.</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h3 id="Rules-of-the-Game">Rules of the Game<a class="anchor-link" href="#Rules-of-the-Game">&#182;</a></h3><p>The rules are simple. Three dices will be thrown and determines whether the user has won or not. To make the simulation simpler than the normal game of play, only the followings rules are observed:</p>
+<ol>
+<li>If the point for each dice is the same (3-of-a-kind), the user lose;</li>
+<li>If the point for each dice is NOT all of the same kind, the user will win the bet if the total number of points is greater than or equals to 11, otherwise the user lose the bet;</li>
+</ol>
+<h3 id="Betting-Strategy">Betting Strategy<a class="anchor-link" href="#Betting-Strategy">&#182;</a></h3><ul>
+<li><p>In order to simplify the game play, the user can only bet on the BIG side (大) for every round. The user starts with the minimum bet of $100. If the user loses the current round, the user will double the bet in the next round until he/she wins that round. After a win, the betting will start over again with the minimum bet.</p>
+</li>
+<li><p>If the user does not have enough money to bet for the next round according to the betting strategy, the user will bet ALL the money for the next round. That is, if the user wins, the user can start betting with the minimum bet in the next round. But if the user loses, the game terminates. The game will also terminate when the number of round reaches 25.</p>
+</li>
+</ul>
+
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="kn">import</span> <span class="nn">random</span> <span class="c1"># import random module</span>
+<span class="k">def</span> <span class="nf">roll3dices</span><span class="p">():</span> <span class="c1"># A function for simulating the rolling of 3 dices</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">),</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">),</span> <span class="n">random</span><span class="o">.</span><span class="n">randint</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="mi">6</span><span class="p">))</span>
+<span class="k">def</span> <span class="nf">three_of_a_kind</span><span class="p">(</span><span class="n">d1</span><span class="p">,</span> <span class="n">d2</span><span class="p">,</span> <span class="n">d3</span><span class="p">):</span>
+    <span class="k">return</span> <span class="p">(</span><span class="n">d1</span> <span class="o">==</span> <span class="n">d2</span> <span class="ow">and</span> <span class="n">d2</span> <span class="o">==</span> <span class="n">d3</span><span class="p">)</span>
+<span class="c1"># Declare and initialize global variables and constants</span>
+<span class="n">MAX_Game</span> <span class="o">=</span> <span class="mi">100</span><span class="p">;</span> <span class="n">MAX_Round</span> <span class="o">=</span> <span class="mi">25</span><span class="p">;</span> <span class="n">MIN_Bet</span> <span class="o">=</span> <span class="mi">100</span>
+<span class="n">Total_Win</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span>  <span class="n">Total_Lose</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">Lum_Sum</span> <span class="o">=</span> <span class="mi">0</span>
+<span class="k">def</span> <span class="nf">PlayOneGame</span><span class="p">():</span>
+    <span class="n">Amount_Left</span> <span class="o">=</span> <span class="mi">1600</span><span class="p">;</span> <span class="n">Bet</span> <span class="o">=</span> <span class="n">MIN_Bet</span>
+    <span class="n">Num_Win</span> <span class="o">=</span> <span class="mi">0</span><span class="p">;</span> <span class="n">Num_Lose</span> <span class="o">=</span> <span class="mi">0</span>
+    <span class="k">for</span> <span class="n">Round</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">1</span><span class="p">,</span> <span class="n">MAX_Round</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">Amount_Left</span> <span class="o">&lt;=</span> <span class="mi">0</span><span class="p">):</span>
+            <span class="k">break</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">Bet</span> <span class="o">&gt;</span> <span class="n">Amount_Left</span><span class="p">):</span>
+            <span class="n">Bet</span> <span class="o">=</span> <span class="n">Amount_Left</span>
+        <span class="n">dicel</span><span class="p">,</span> <span class="n">dice2</span><span class="p">,</span> <span class="n">dice3</span> <span class="o">=</span> <span class="n">roll3dices</span><span class="p">()</span>
+        <span class="n">dice_total</span> <span class="o">=</span> <span class="n">dicel</span> <span class="o">+</span> <span class="n">dice2</span> <span class="o">+</span> <span class="n">dice3</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">three_of_a_kind</span><span class="p">(</span><span class="n">dicel</span><span class="p">,</span> <span class="n">dice2</span><span class="p">,</span> <span class="n">dice3</span><span class="p">)):</span>
+            <span class="n">DealerWin</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">elif</span> <span class="p">(</span><span class="n">dice_total</span> <span class="o">&lt;</span> <span class="mi">11</span><span class="p">):</span>
+            <span class="n">DealerWin</span> <span class="o">=</span> <span class="kc">True</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">DealerWin</span> <span class="o">=</span> <span class="kc">False</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">DealerWin</span><span class="p">):</span>
+            <span class="n">Num_Lose</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">Amount_Left</span> <span class="o">-=</span> <span class="n">Bet</span>
+            <span class="n">Bet</span> <span class="o">*=</span> <span class="mi">2</span>
+        <span class="k">else</span><span class="p">:</span>
+            <span class="n">Num_Win</span> <span class="o">+=</span> <span class="mi">1</span>
+            <span class="n">Amount_Left</span> <span class="o">+=</span> <span class="n">Bet</span>
+            <span class="n">Bet</span> <span class="o">=</span> <span class="n">MIN_Bet</span>
+    <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Win:Lose = </span><span class="si">{:2}</span><span class="s2">:</span><span class="si">{:2}</span><span class="s2"> You have $</span><span class="si">{:4}</span><span class="s2"> left&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Num_Win</span><span class="p">,</span> <span class="n">Num_Lose</span><span class="p">,</span> <span class="n">Amount_Left</span><span class="p">)</span> <span class="p">)</span>
+    <span class="k">return</span> <span class="n">Num_Win</span><span class="p">,</span> <span class="n">Num_Lose</span><span class="p">,</span> <span class="n">Amount_Left</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">for</span> <span class="n">Num_Game</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">MAX_Game</span><span class="p">):</span>
+    <span class="n">Num_Win</span><span class="p">,</span> <span class="n">Num_Lose</span><span class="p">,</span> <span class="n">Amount_Left</span> <span class="o">=</span> <span class="n">PlayOneGame</span><span class="p">()</span>
+    <span class="k">if</span> <span class="p">(</span><span class="n">Num_Win</span> <span class="o">&gt;=</span> <span class="n">Num_Lose</span><span class="p">):</span>
+        <span class="n">Total_Win</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="k">else</span><span class="p">:</span>
+        <span class="n">Total_Lose</span> <span class="o">+=</span> <span class="mi">1</span>
+    <span class="n">Lum_Sum</span> <span class="o">+=</span> <span class="n">Amount_Left</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{:3}</span><span class="s2">:</span><span class="si">{:2}</span><span class="s2"> &quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Total_Win</span><span class="p">,</span> <span class="n">Total_Lose</span><span class="p">),</span> <span class="s2">&quot;Ave. Amount Left: $</span><span class="si">{:.2f}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">Lum_Sum</span><span class="o">/</span><span class="n">Num_Game</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Printing-out-Prime-Numbers">Printing out Prime Numbers<a class="anchor-link" href="#Printing-out-Prime-Numbers">&#182;</a></h2><h3 id="Learning-Objectives">Learning Objectives<a class="anchor-link" href="#Learning-Objectives">&#182;</a></h3><ul>
+<li>Improvement in efficiency &amp; clarity</li>
+</ul>
+<h3 id="A-prime-number-is-a-number-that-is-only-divisible-by-itself">A prime number is a number that is only divisible by itself<a class="anchor-link" href="#A-prime-number-is-a-number-that-is-only-divisible-by-itself">&#182;</a></h3>
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="k">def</span> <span class="nf">PrintPrime</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="k">for</span> <span class="n">j</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+            <span class="k">if</span> <span class="p">(</span><span class="n">i</span><span class="o">%</span><span class="k">j</span> == 0):
+                <span class="k">break</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="n">j</span><span class="p">):</span>
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{:3}</span><span class="s2"> is a prime number -- </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">))</span>
+
+<span class="k">def</span> <span class="nf">PrintPrime2</span><span class="p">(</span><span class="n">n</span><span class="p">):</span>
+    <span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="mi">2</span><span class="p">,</span> <span class="n">n</span><span class="o">+</span><span class="mi">1</span><span class="p">):</span>
+        <span class="n">j</span> <span class="o">=</span><span class="mi">2</span>
+        <span class="k">while</span> <span class="p">(</span><span class="n">j</span> <span class="o">&lt;=</span> <span class="n">i</span><span class="o">/</span><span class="n">j</span><span class="p">)</span> <span class="ow">and</span> <span class="p">(</span><span class="n">i</span><span class="o">%</span><span class="k">j</span> != 0):
+            <span class="n">j</span> <span class="o">+=</span> <span class="mi">1</span>
+        <span class="k">if</span> <span class="p">(</span><span class="n">i</span> <span class="o">==</span> <span class="n">j</span><span class="p">)</span> <span class="ow">or</span> <span class="p">(</span><span class="n">i</span><span class="o">%</span><span class="k">j</span> != 0):
+            <span class="nb">print</span><span class="p">(</span><span class="s2">&quot;</span><span class="si">{:3}</span><span class="s2"> is a prime number -- </span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">j</span><span class="p">))</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></div><div class="fragment">
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span><span class="n">PrintPrime</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
+<span class="n">PrintPrime2</span><span class="p">(</span><span class="mi">99</span><span class="p">)</span>
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Some-Comments-and-Remarks-from-Joe&#8230;">Some Comments and Remarks from Joe&#8230;<a class="anchor-link" href="#Some-Comments-and-Remarks-from-Joe&#8230;">&#182;</a></h2><ul>
+<li>Loop: While vs. For &amp; Why we try to avoid break, continue</li>
+</ul>
+<div class="highlight"><pre><span></span><span class="n">i</span><span class="o">=</span><span class="mi">0</span>
+<span class="k">while</span> <span class="p">(</span><span class="n">i</span> <span class="o">&lt;</span> <span class="n">MAX</span><span class="p">):</span>
+    <span class="n">statement1</span>
+    <span class="n">statement2</span>
+    <span class="n">StatementNn</span>
+    <span class="n">i</span><span class="o">=</span><span class="n">i</span><span class="o">+</span><span class="n">l</span>
+<span class="o">&lt;</span><span class="n">Can</span> <span class="n">assume</span> <span class="n">i</span> <span class="o">&gt;=</span> <span class="n">MAX</span><span class="o">&gt;</span>
+</pre></div>
+<div class="highlight"><pre><span></span><span class="k">for</span> <span class="n">i</span> <span class="ow">in</span> <span class="nb">range</span><span class="p">(</span><span class="n">MAX</span><span class="p">):</span>
+    <span class="n">statement1</span>
+    <span class="n">statement2</span>
+    <span class="n">statementN</span>
+<span class="o">&lt;</span><span class="n">Can</span> <span class="n">assume</span> <span class="n">go</span> <span class="n">thru</span> <span class="n">statements</span> <span class="n">MAX</span> <span class="n">times</span><span class="o">&gt;</span>
+</pre></div>
+
+</div>
+</div>
+</div><div class="fragment">
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<ul>
+<li>Better understanding on <code>print()</code> &amp; <code>input()</code></li>
+</ul>
+<div class="highlight"><pre><span></span><span class="nb">print</span><span class="p">(</span><span class="s2">&quot;There are &quot;</span> <span class="o">+</span> <span class="nb">str</span><span class="p">(</span><span class="n">i</span><span class="p">)</span> <span class="o">+</span> <span class="s2">&quot; students in COMP</span><span class="si">{}</span><span class="s2">&quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="mi">1007</span><span class="p">))</span>
+<span class="nb">print</span><span class="p">(</span><span class="s2">&quot;Integer </span><span class="si">{:&gt;3}</span><span class="s2"> Float </span><span class="si">{:.2f}</span><span class="s2"> String </span><span class="si">{:^10}</span><span class="s2"> &quot;</span><span class="o">.</span><span class="n">format</span><span class="p">(</span><span class="n">i</span><span class="p">,</span> <span class="n">m</span><span class="p">,</span> <span class="n">s</span><span class="p">),</span> <span class="n">end</span><span class="o">=</span><span class="s1">&#39;&#39;</span><span class="p">)</span>
+<span class="n">Number</span> <span class="o">=</span> <span class="nb">int</span><span class="p">(</span><span class="nb">input</span><span class="p">(</span><span class="s2">&quot;Please type your ID &gt;&quot;</span><span class="p">))</span>
+</pre></div>
+<ul>
+<li>Proper Indentation – Block Alignment &amp; Watch out for those whitespaces!</li>
+<li>Putting Comments and making use of docstring</li>
+<li>Achieving one’s programming style (Simple vs. Compact)</li>
+</ul>
+
+</div>
+</div>
+</div></div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Many-more-Python-Examples---Programiz">Many more Python Examples - Programiz<a class="anchor-link" href="#Many-more-Python-Examples---Programiz">&#182;</a></h2><p><a href="https://www.programiz.com/python-programming">https://www.programiz.com/python-programming</a></p>
+<iframe src="https://www.programiz.com/python-programming"></iframe>
+</div>
+</div>
+</div></section><section>
+<div class="cell border-box-sizing text_cell rendered"><div class="prompt input_prompt">
+</div>
+<div class="inner_cell">
+<div class="text_cell_render border-box-sizing rendered_html">
+<h2 id="Many-more-Python-Examples---Programiz">Many more Python Examples - Programiz<a class="anchor-link" href="#Many-more-Python-Examples---Programiz">&#182;</a></h2><table>
+<thead><tr>
+<th>.</th>
+<th>.</th>
+<th>.</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/hello-world">Python program to Print Hello World!</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/multiplication-table">Python program to Display the multiplication Table</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/fibonacci-recursion">Python program to Display Fibonacci Sequence Using Recursion</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/add-number">Python program to Add Two Number</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/fibonacci-sequence">Python program to Print the Fibonacci sequence</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/natural-number-recursion">Python program to Find Sum of Natural Numbers Using Recursion</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/square-root">Python program to Find the Square Root</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/display-calendar">Python program to Display Calendar</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/factorial-recursion">Python program to Find Factorial of Number Using Recursion</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/area-triangle">Python program to Calculate the Area of a Triangle</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/armstrong-number">Python program to Check Armstrong Number</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/decimal-binary-recursion">Python program to Convert Decimal to Binary Using Recursion</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/quadratic-roots">Python program to Solve Quadratic Equation</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/armstrong-interval">Python program to Find Armstrong Number in an Interval</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/add-matrix">Python program to Add Two Matrices</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/swap-variables">Python program to Swap Two Variables</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/sum-natural-number">Python program to Find the Sum of Natural Numbers</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/transpose-matrix">Python program to Transpose a Matrix</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/random-number">Python program to Generate a Random Number</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/power-anonymous">Python program to Display Powers of 2 Using Anonymous Function</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/multiply-matrix">Python program to Multiply Two Matrices</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/km-mile">Python program to Convert Kilometers to Miles</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/number-divisible">Python program to Find Numbers Divisible by Another Number</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/palindrome">Python program to Check Whether a String is Palindrome or Not</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/celsius-fahrenheit">Python program to Convert Celsius To Fahrenheit</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/conversion-binary-octal-hexadecimal">Python program to Convert Decimal to Binary, Octal and Hexadecimal</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/remove-punctuation">Python program to Remove Punctuations From a String</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/positive-negative-zero">Python program to Check if a Number is Positive, Negative or 0</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/ascii-character">Python program to Find ASCII Value of Character</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/alphabetical-order">Python program to Sort Words in Alphabetic Order</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/odd-even">Python program to Check if a Number is Odd or Even</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/calculator">Python program to Make a Simple Calculator</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/set-operation">Python program to Illustrate Different Set Operations</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/leap-year">Python program to Check Leap Year</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/hcf">Python program to Find HCF or GCD</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/count-vowel">Python program to Count the Number of Each Vowel</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/largest-number-three">Python program to Largest Among Three Numbers</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/lcm">Python program to Find LCM</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/merge-mails">Python program to Merge Mails</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/prime-number">Python program to Check Prime Number</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/factor-number">Python program to Find the Factors of a Number</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/resolution-image">Python program to Find the Size (Resolution) of a Image</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/prime-number-intervals">Python program to Print all Prime Numbers in an Interval</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/shuffle-card">Python program to Shuffle Deck of Cards</a></td>
+<td><a href="https://www.programiz.com/python-programming/examples/hash-file">Python program to Find Hash of File</a></td>
+</tr>
+<tr>
+<td><a href="https://www.programiz.com/python-programming/examples/factorial">Find the Factorial of a Number</a></td>
+</tr>
+</tbody>
+</table>
+
+</div>
+</div>
+</div>
+<div class="cell border-box-sizing code_cell rendered">
+<div class="input">
+<div class="prompt input_prompt">In&nbsp;[&nbsp;]:</div>
+<div class="inner_cell">
+    <div class="input_area">
+<div class=" highlight hl-ipython3"><pre><span></span> 
+</pre></div>
+
+</div>
+</div>
+</div>
+
+</div></section></section>
 </div>
 </div>
 
